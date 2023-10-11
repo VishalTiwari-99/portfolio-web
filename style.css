@@ -365,6 +365,10 @@ section {
   margin: auto 0;
 }
 
+.text-container{
+  text-align: justify;
+}
+
 /* SKILL SECTION */
 
 #skill {
@@ -379,9 +383,9 @@ section {
 }
 
 .experience-details-container {
-  display: flex;
+  /* display: flex; */
   justify-content: center;
-  flex-direction: column;
+  /* flex-direction: column; */
 }
 
 .article-container {
