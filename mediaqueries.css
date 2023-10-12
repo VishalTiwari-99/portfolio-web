@@ -110,4 +110,23 @@
   .profile-pic-main{
     width: 50vw;
   }
+  
+  .dynamic-texts li span::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 150%;
+    width: 100%;
+    background: #ffff;
+    border-left: 2px solid grey;
+    animation: typing 2s steps(19) infinite;
+  }
+  
+  @keyframes typing {
+    100%{
+      left: 100%;
+      margin: 0 -35px 0 35px;
+    }
+  }
+
 }
