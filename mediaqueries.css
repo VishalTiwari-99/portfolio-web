@@ -106,4 +106,8 @@
   .dynamic-text-wrapper{
     margin-left: 70px;
   }
+
+  .profile-pic-main{
+    width: 50vw;
+  }
 }
